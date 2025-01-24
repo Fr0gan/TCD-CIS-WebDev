@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>What an Ugly Page</title>
+</head>
+<body>
 
+    <!-- Header Section -->
+    <header>
+        <h1>The A Teams page</h1>
+        <p></p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="https://eelslap.com/" target="_blank" rel="nofollow">EEL Slap</a></li>
+            <li><a href="https://puginarug.com/" target="_blank" rel="nofollow">Pug In a rug </a></li>
+            <li>
+                <a href="http://corndog.io/" target="_blank" rel="nofollow">Corn Dog</a>
+                <ul>
+                    <li><a href="https://hooooooooo.com" target="_blank" rel="nofollow">https://hooooooooo.com</a></li>
+                    <li><a href="https://heeeeeeeey.com/" target="_blank" rel="nofollow">https://heeeeeeeey.com/</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://thatsthefinger.com/" target="_blank" rel="nofollow">THE FINGER</a>
+                <ul>
+                    <li><a href="https://www.movenowthinklater.com/" target="_blank" rel="nofollow">Chedkers? </a></li>
+                    <li><a href="https://trypap.com/" target="_blank" rel="nofollow">password Wbsite</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Primary Section -->
+        <section class="primary">
+            <article>
+                <h2>About My Topic</h2>
+                <p>When are we going to have a . <strong>TACOOOOOOOO PARTYYYY</strong> and <em>we want text</em> it soon.</p>
+            </article>
+        </section>
+
+        <!-- Additional Sections and Articles -->
+        <section>
+            <article>
+                <h2>¿Ɩ ǝlɔᴉʇɹ∀</h2>
+                <p>sᴉɥʇ ƃuᴉpɐǝɹ ʞɔnl pooƃ ɐɥɐɥ.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Mangos</h2>
+                <p>What yall know about mangos. <a href="#">http://www.republiquedesmangues.fr/</a>.</p>
+            </article>
+        </section>
+
+        <!-- Aside Section -->
+        <aside>
+            <h3>Fight Stars</h3>
+            <a href="https://www.example.com"><img src="https://static.wikia.nocookie.net/35baba86-8278-43b3-8631-23c56dcef2f0/scale-to-width/755" alt="Fight Stars" width="150" height="auto"></a>
+            <h3>Pear Phone</h3>
+            <a href="https://www.example.com"><img src="https://i.etsystatic.com/9237791/r/il/d49697/2250824392/il_680x540.2250824392_rgvy.jpg" alt="Pear" width="150" height="auto"></a>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&#169; Logan Loftus 2025</p>
+    </footer>
+
+</body>
+</html>
