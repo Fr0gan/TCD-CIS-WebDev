@@ -1,1 +1,58 @@
+body {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: square;
+    color: black;
+}
+
+nav ul li {
+    color: #333;
+}
+
+nav ul li::marker {
+    color: #ff6347;
+}
+
+nav a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+nav a:visited {
+    color: #800080;
+}
+
+nav a:active {
+    color: #ff0000;
+}
+
+header {
+    background-color: #1e90ff;
+    padding: 1rem;
+}
+
+main {
+    width: calc(70% - 1px);
+    float: left;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+footer {
+    background-color: #1e90ff;
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+}
 
