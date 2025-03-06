@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Picture Example</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <figure>
-            <picture>
-                <!-- Small image sources -->
-                <source media="(max-width: 600px)" srcset="images/image-small.webp.webp" type="image/webp">
-                <source media="(max-width: 600px)" srcset="images/image-small.jpg.jpg" type="image/jpeg">
-                
-                <!-- Large image sources -->
-                <source media="(min-width: 601px)" srcset="images/image-large.webp.webp" type="image/webp">
-                <source media="(min-width: 601px)" srcset="images/image-large.jpg.jpg" type="image/jpeg">
-                
-                <!-- Fallback image if none of the sources match -->
-                <img src="images/image-large.jpg.jpg" alt="Fallback Image">
-            </picture>
-            <figcaption>
-            </figcaption>
-        </figure>
-    </div>
-</body>
-</html>
+    <title>Pictures!</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  
+  <body>
+    <main>
+        <h1>iPhone Repair!</h1>  
 
+      <figure>
+        <picture>
+          <!-- Phone image Chopped Head-->
+          <source srcset="images/ChoppedHeadjpg.jpg" type="image/jpg" media="(max-width: 600px)">
+          <!-- Phone image Chopped Head-->
+          <source srcset="images/ChoppedHead.webp" type="image/webp" media="(max-width: 600px)">
+
+          
+          <!-- Desktop image 5Head-->
+          <source srcset="images/5Headjpg.jpg" type="image/jpg" media="(max-width: 1000px)">
+          <!-- Desktop image 5Head-->
+          <source srcset="images/5Head.webp" type="image/webp" media="(max-width: 1000px)">
+
+          <img src="images/5Headjpg.jpg" alt="Default Image">
+        </picture>
+
+        <figcaption>FREE new iPhone! <a href="https://teacher.desmos.com/activitybuilder/teacherguide/67888240a4f95cfe11cf2af0" target="_blank">CLICK HERE</a></figcaption>
+      </figure>
+    </main>
+  </body>
+  
+</html>
