@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <figure>
+            <picture>
+                <!-- Small image sources -->
+                <source media="(max-width: 600px)" srcset="images/image-small.webp.webp" type="image/webp">
+                <source media="(max-width: 600px)" srcset="images/image-small.jpg.jpg" type="image/jpeg">
+                
+                <!-- Large image sources -->
+                <source media="(min-width: 601px)" srcset="images/image-large.webp.webp" type="image/webp">
+                <source media="(min-width: 601px)" srcset="images/image-large.jpg.jpg" type="image/jpeg">
+                
+                <!-- Fallback image if none of the sources match -->
+                <img src="images/image-large.jpg.jpg" alt="Fallback Image">
+            </picture>
+            <figcaption>
+            </figcaption>
+        </figure>
+    </div>
+</body>
+</html>
 
