@@ -1,30 +1,25 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
+body{
+  background-color: #ffabcb;
+  font-family: sans-serif;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
+picture{
+  text-align:  center;
+  padding: 10px;
 }
 
-figure {
-    margin: 0;
+figcaption{
+  text-align: center;
+  margin-left: 175px;
+  margin-right: 175px;
+  background-color: lightgrey;
+  font-size: 32px;
+  text-decoration: underline;
 }
 
-figcaption {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    color: #333;
-}
-
-picture img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px; 
+h1{
+  text-align: center;
+  padding: 3px;
+  color: 046266;
+  background-color: lightgrey;
 }
