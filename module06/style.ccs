@@ -14,7 +14,11 @@ figcaption{
   margin-right: 175px;
   background-color: lightgrey;
   font-size: 32px;
+}
+
+a{
   text-decoration: underline;
+  font-style: bold;
 }
 
 h1{
