@@ -1,1 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
